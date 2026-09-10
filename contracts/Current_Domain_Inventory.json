@@ -1,0 +1,47 @@
+{
+  "retrieval_date": "2026-09-09",
+  "base": "https://www.kazarbuild.com",
+  "method": "Public web retrieval of homepage links; not exhaustive live server crawl",
+  "routes": [
+    {
+      "url": "https://www.kazarbuild.com/",
+      "status": "retrieved; native HTTP/redirect verification pending"
+    },
+    {
+      "url": "https://www.kazarbuild.com/projects",
+      "status": "retrieved; native HTTP/redirect verification pending"
+    },
+    {
+      "url": "https://www.kazarbuild.com/construction",
+      "status": "retrieved; native HTTP/redirect verification pending"
+    },
+    {
+      "url": "https://www.kazarbuild.com/interiors",
+      "status": "retrieved; native HTTP/redirect verification pending"
+    },
+    {
+      "url": "https://www.kazarbuild.com/landscaping",
+      "status": "retrieved; native HTTP/redirect verification pending"
+    },
+    {
+      "url": "https://www.kazarbuild.com/about",
+      "status": "retrieved; native HTTP/redirect verification pending"
+    },
+    {
+      "url": "https://www.kazarbuild.com/blog",
+      "status": "retrieval failed"
+    },
+    {
+      "url": "https://www.kazarbuild.com/contact",
+      "status": "retrieved; native HTTP/redirect verification pending"
+    }
+  ],
+  "pending": [
+    "sitemap/robots inventory",
+    "Search Console and analytics export",
+    "all project and blog URLs",
+    "redirect mapping approval",
+    "domain ownership records"
+  ],
+  "launch": "NOT AUTHORISED"
+}

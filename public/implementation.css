@@ -1,0 +1,19 @@
+/* Functional adaptations only; approved.css is preserved byte-for-byte. */
+@font-face{font-family:SourceSans;src:url('/assets/sourcesans3_400.ttf') format('truetype');font-weight:400;font-display:swap}
+@font-face{font-family:SourceSans;src:url('/assets/sourcesans3_600.ttf') format('truetype');font-weight:600;font-display:swap}
+@font-face{font-family:SourceSerif;src:url('/assets/sourceserif4_400.ttf') format('truetype');font-weight:400;font-display:swap}
+.implementation-banner{padding:8px 24px;background:var(--limestone);font-size:13px;text-align:center}
+.held-evidence{min-height:260px;display:flex;align-items:center;justify-content:center;padding:32px;text-align:center}
+.public-contact{font-style:normal;font-size:16px;line-height:1.55;overflow-wrap:anywhere}
+.public-contact p{max-width:290px}
+.review-notice{border-left:2px solid var(--midnight);padding-left:16px;font-size:16px}
+.honeypot{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+.form-status:empty{display:none}
+.form-status{overflow-wrap:anywhere}
+.error-summary a{display:block}
+input:disabled{cursor:not-allowed;opacity:.6}
+#receipt-reference{overflow-wrap:anywhere}
+#main:focus,h1:focus{outline:none}
+.menu-overlay{z-index:100}
+@media(max-width:599px){.implementation-banner{font-size:12px;padding:8px 16px}.held-evidence{min-height:220px;padding:20px}.public-contact{font-size:16px}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}

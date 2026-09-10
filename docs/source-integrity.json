@@ -1,0 +1,20 @@
+{
+  "contact": {
+    "public_address": "Office 903, Opus Tower A, Business Bay, Dubai, UAE",
+    "public_email": "info@kazar.build",
+    "public_phone": "+971 52 752 27 27",
+    "phone_uri": "tel:+971527522727",
+    "email_uri": "mailto:info@kazar.build",
+    "kazar_instagram": "https://www.instagram.com/kazarbuild/",
+    "kazar_linkedin": "https://www.linkedin.com/company/kazarbuild/",
+    "bek_instagram": "https://www.instagram.com/bekrazak.co/",
+    "bek_linkedin": "https://www.linkedin.com/in/bekrazak27/",
+    "website_current": "https://kazar.build"
+  },
+  "logos": {
+    "logo.svg": "0559b1d463fc3f3760d0b28d827df1065ff0fed74a57905fd605c684756df190",
+    "logo-ivory.svg": "a145a6cf78d961c3f9cbddc4e95085d8f27a62d31f28a23fe2c7d37352a09a04"
+  },
+  "source": "KAZAR_FOR_WEB_DEVELOPER.zip / approved pages.json and ui.css",
+  "alFurjan": "Not included in served assets; case route returns 404"
+}

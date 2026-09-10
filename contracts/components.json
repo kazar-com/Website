@@ -1,0 +1,147 @@
+[
+  {
+    "component": "Header",
+    "layout": "110 px desktop / 86 compact; logo 174\u00d756 / 118\u2013128\u00d743; Ivory; 1 px Limestone bottom",
+    "behaviour": "Scroll >40 px changes rule to 2 px Midnight, geometry stable; sticky; 220 ms border transition."
+  },
+  {
+    "component": "Navigation",
+    "layout": "14 px sans; 23 px desktop link gap; compact below1100; six locked links",
+    "behaviour": "Hover/current: Midnight underline; focus ring; no disabled public links."
+  },
+  {
+    "component": "Mobile menu",
+    "layout": "Full viewport Midnight; 25 px Ivory links; 59 px rows; 24 px inset",
+    "behaviour": "Open focuses Close; trap Tab, Escape closes, restore trigger; body scroll locked; background inert."
+  },
+  {
+    "component": "Footer",
+    "layout": "Midnight; 48 px desktop /39 phone inner padding; approved logo and supporting links",
+    "behaviour": "Links underline on hover; inverse focus ring; phone nav groups wrap; no hiding legal links."
+  },
+  {
+    "component": "Primary button",
+    "layout": "52 px min; 14\u00d721 padding; sans600 16/15; Midnight/Ivory",
+    "behaviour": "Hover outline offset3; focus2 offset5; active outline0; disabled Limestone/Charcoal, no click; 220 ms."
+  },
+  {
+    "component": "Secondary button",
+    "layout": "Same dimensions; transparent/Ivory, Midnight rule/text",
+    "behaviour": "Hover Limestone; focus same; active2 px rule; disabled Limestone; inverse version on dark."
+  },
+  {
+    "component": "Text links",
+    "layout": "15 px sans600; 44 px target when standalone; underline offset5",
+    "behaviour": "Hover underline; focus ring; active maintains underline; no fake disabled anchor."
+  },
+  {
+    "component": "Section labels",
+    "layout": "13/12 px sans600; tracking .13/.11em; bottom24",
+    "behaviour": "Static: hover/focus/active/disabled/error N/A; inverse Ivory on dark."
+  },
+  {
+    "component": "Headings",
+    "layout": "Use named H1\u2013H4 tokens; bottom24\u201332; width controlled",
+    "behaviour": "Static states N/A; anchors have scroll margin header+16; never forced fixed height."
+  },
+  {
+    "component": "Body copy",
+    "layout": "18/17 px sans400; 64ch measure; paragraph gap24",
+    "behaviour": "Static states N/A; inline links underlined; text selection native."
+  },
+  {
+    "component": "Evidence card",
+    "layout": "Figure: status row, Taupe mat, contained asset, caption, viewer link",
+    "behaviour": "Asset hover retains colour; link focus2; no status promotion. Missing asset becomes labelled typographic placeholder in review, blocked publish if required."
+  },
+  {
+    "component": "Project card",
+    "layout": "36/64 desktop; single-column phone; Limestone field, Taupe metadata",
+    "behaviour": "Only explicit case link navigates; title, general location, role and status always visible; no imaginary portfolio cards."
+  },
+  {
+    "component": "Evidence status",
+    "layout": "13 px sans600 uppercase; .07em; 1 px Taupe rules; 10 px vertical padding",
+    "behaviour": "Static states N/A; canonical text persists with reuse and zoom; no traffic-light badge."
+  },
+  {
+    "component": "Drawing viewer / zoom",
+    "layout": "90vw max1150; phone width minus24; Ivory dialog; 24/16 inset",
+    "behaviour": "Fit, +, \u2212, close; zoom100\u2013400%; keyboard scroll region; Escape/restore focus. Caption always outside scroll region."
+  },
+  {
+    "component": "Standard accordion",
+    "layout": "65/41 px number column, content,35/22 control;84 px minimum desktop summary",
+    "behaviour": "Native details/summary; 03 initially open; multi-open; keyboard Enter/Space; 220 ms content fade; reduced motion none."
+  },
+  {
+    "component": "Form fields",
+    "layout": "Ivory on Limestone;52 px min;13\u00d715 padding; Midnight1 border; full width",
+    "behaviour": "Focus2 offset5; error2 border+message; readonly readable; disabled Limestone; no validation while initially empty."
+  },
+  {
+    "component": "Select fields",
+    "layout": "Native select, same field tokens; clear default option",
+    "behaviour": "Arrow keys native; focus/error same; no auto-submit or navigation on selection; disabled native."
+  },
+  {
+    "component": "Textarea",
+    "layout": "130 px starting height; resize vertical; same field tokens",
+    "behaviour": "Preserve text on error/back; no fixed max-height clipping; max length message before limit."
+  },
+  {
+    "component": "File upload",
+    "layout": "Native chooser plus filenames/size/remove actions; full width;14 px helper",
+    "behaviour": "No required upload; pending/scanning/uploaded/rejected text states; reject type/size; retry per file; cancel/remove before send."
+  },
+  {
+    "component": "Error states",
+    "layout": "Midnight text and2 px field rule; Ivory summary,3 px left rule;16 inset",
+    "behaviour": "Summary focuses after failed submit; links to fields; retained values; retry; role alert only on new response."
+  },
+  {
+    "component": "Success states",
+    "layout": "Ivory heading + Limestone optional-next panel; normal footer",
+    "behaviour": "Shown after durable backend acknowledgement only; focus H1; Add details or Finish; no timed redirect."
+  },
+  {
+    "component": "Empty states",
+    "layout": "Typography and restrained rule; no stock substitute",
+    "behaviour": "State what is unavailable and relevant next action; no spinner when genuinely empty."
+  },
+  {
+    "component": "Loading states",
+    "layout": "Existing button width; \u201cSubmitting\u2026\u201d; sans; aria-busy",
+    "behaviour": "Disable duplicate submission; retain keyboard context; no indefinite decorative animation; timeout becomes retry state."
+  },
+  {
+    "component": "Inline validation",
+    "layout": "14 px sans;8 px below field; linked describedby",
+    "behaviour": "On submit then blur/change for invalid fields; whitespace trim; no aggressive keystroke errors."
+  },
+  {
+    "component": "Breadcrumbs",
+    "layout": "14 px sans;24 px vertical; normal links; semantic nav/list",
+    "behaviour": "Wrap on phone; current item text/aria-current; hover underline; focus ring; no truncating project identity."
+  },
+  {
+    "component": "CTA blocks",
+    "layout": "Light inset within Midnight closing;32/24 inset;52 px button",
+    "behaviour": "Primary remains Midnight on light inset; long labels wrap on phone; button state contract applies."
+  },
+  {
+    "component": "Editorial Olive panel",
+    "layout": "Contained28% desktop; full-width small phone field;26/20 inset",
+    "behaviour": "Ivory editorial text; no primary action inside; static states N/A; max-height removed if text grows."
+  },
+  {
+    "component": "Limestone panel",
+    "layout": "Section or form container;76/48 section or45/25 form inset",
+    "behaviour": "Static states N/A; functional fields have distinct Ivory background and Midnight border."
+  },
+  {
+    "component": "Taupe evidence mat",
+    "layout": "22 px desktop/15 phone padding; contain source image",
+    "behaviour": "Static states N/A; never rasterise new textures; no crop; viewer action inherits link states."
+  }
+]

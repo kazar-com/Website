@@ -1,0 +1,13 @@
+{
+  "maxFiles": 5,
+  "maxFileMB": 20,
+  "maxTotalMB": 50,
+  "extensions": [
+    "pdf",
+    "jpeg",
+    "jpg",
+    "png"
+  ],
+  "enforce": "client + server",
+  "status": "SPEC CONFIRMED; BACKEND NOT TESTED"
+}

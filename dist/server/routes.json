@@ -1,0 +1,19 @@
+{
+  "/": "index.html",
+  "/services/": "services/index.html",
+  "/private-clients/": "private-clients/index.html",
+  "/for-architects/": "for-architects/index.html",
+  "/kazar-standard/": "kazar-standard/index.html",
+  "/about/": "about/index.html",
+  "/project-diagnostic/": "project-diagnostic/index.html",
+  "/contact/": "contact/index.html",
+  "/projects/": "projects/index.html",
+  "/contact/received/": "contact/received/index.html",
+  "/contact/details/": "contact/details/index.html",
+  "/contact/finished/": "contact/finished/index.html",
+  "/privacy/": "privacy/index.html",
+  "/terms/": "terms/index.html",
+  "/accessibility/": "accessibility/index.html",
+  "/diagnostic/intake/": "diagnostic/intake/index.html",
+  "/review/case-study/": "review/case-study/index.html"
+}

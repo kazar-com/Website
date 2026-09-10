@@ -1,0 +1,204 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "project_name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "public_slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "general_location": {
+      "type": "string",
+      "minLength": 1
+    },
+    "project_type": {
+      "type": "string",
+      "minLength": 1
+    },
+    "client_type": {
+      "type": "string",
+      "minLength": 1
+    },
+    "architect_designer": {
+      "type": "string",
+      "minLength": 1
+    },
+    "kazar_role": {
+      "type": "string",
+      "minLength": 1
+    },
+    "scope": {
+      "type": "string",
+      "minLength": 1
+    },
+    "project_stage": {
+      "type": "string",
+      "minLength": 1
+    },
+    "public_status": {
+      "enum": [
+        "PROPOSED",
+        "DOCUMENTED DECISION",
+        "EXECUTED",
+        "ACCEPTED"
+      ]
+    },
+    "hero_evidence_asset": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "case_study_sections": {
+      "type": "array",
+      "items": {
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "section": {
+            "enum": [
+              "identity",
+              "primary_evidence",
+              "scope_challenge",
+              "technical_evidence",
+              "technical_resolution",
+              "execution_materials",
+              "relevant_stage",
+              "outcome",
+              "next_step"
+            ]
+          },
+          "text": {
+            "type": "string",
+            "minLength": 1
+          },
+          "evidence_ids": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        },
+        "required": [
+          "section",
+          "text",
+          "evidence_ids"
+        ]
+      }
+    },
+    "relevant_services": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "relevant_standard_stages": {
+      "type": "array",
+      "items": {
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "stage": {
+            "enum": [
+              "01 DEFINE",
+              "02 RESOLVE",
+              "03 COORDINATE",
+              "04 CONTROL",
+              "05 APPROVE",
+              "06 BUILD",
+              "07 VERIFY",
+              "08 HANDOVER & CARE"
+            ]
+          },
+          "record_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "relationship": {
+            "const": "relevant_to"
+          }
+        },
+        "required": [
+          "stage",
+          "record_id",
+          "relationship"
+        ]
+      }
+    },
+    "publication_permission": {
+      "$schema": "https://json-schema.org/draft/2020-12/schema",
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "approved": {
+          "type": "boolean"
+        },
+        "record_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "scope": {
+          "type": "string",
+          "minLength": 1
+        },
+        "channels": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      },
+      "required": [
+        "approved",
+        "record_id",
+        "scope",
+        "channels"
+      ]
+    },
+    "seo_title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "seo_description": {
+      "type": "string",
+      "minLength": 1
+    },
+    "og_image": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  },
+  "required": [
+    "project_name",
+    "public_slug",
+    "general_location",
+    "project_type",
+    "client_type",
+    "architect_designer",
+    "kazar_role",
+    "scope",
+    "project_stage",
+    "public_status",
+    "hero_evidence_asset",
+    "case_study_sections",
+    "relevant_services",
+    "relevant_standard_stages",
+    "publication_permission",
+    "seo_title",
+    "seo_description",
+    "og_image"
+  ]
+}

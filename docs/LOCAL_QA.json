@@ -1,0 +1,10 @@
+{
+ "scope":"Local Node.js 24.19.0 / Linux; synthetic data; not staging or production",
+ "latest_automated_result":{"tests":8,"passed":8,"failed":0,"startup_with_spaces":"PASS — actual CLI process and HTTP response","windows_path_decoding":"PASS — Windows semantics on Linux only","native_windows":"NOT RUN","backup_restore":"PASS locally","auth_routes_assets_api":"PASS locally","notification_retry":"PASS — synthetic transport only; no email sent"},
+ "implemented":["Eight requested primary/supporting pages","Projects and review Case Study template","Original CSS and SVG masters","Current contact JSON integration","Mobile menu code and native Standard accordions","Client/server enquiry validation","Durable SQLite save","Idempotent retry","Server-gated confirmation","Optional Step 2 updates same enquiry","Protected non-loopback configuration"],
+ "tests_passed":["HTTP route and contact-link checks","Required fields and email rejection","Invalid data type rejection","Cross-origin rejection","Honeypot rejection","Stored enquiry and outbox record","Sequential and concurrent duplicate protection","Changed payload conflict","HttpOnly receipt cookie","Receipt/details access guard","Optional detail save","Persistence and session after server restart","Unavailable storage returns 503 without stack trace","Al Furjan page and source assets return 404","Internal source not web-accessible","All generated internal links/assets resolve","Form field label associations","Approved CSS and both original SVGs byte-identical"],
+ "browser_QA":"NOT COMPLETED: managed browser connection refused; no rendered/mobile/native-device pass claimed",
+ "not_connected":["Email delivery","Upload storage and scanning","Private Diagnostic invitation flow","CMS editor","Staging hosting","Production monitoring/backups"],
+ "publication":"NOT DEPLOYED; all pages noindex; test data only",
+ "content_dependencies":["Real founder portrait","Project evidence publication permission","Al Furjan HOLD","Legal content acceptance","Approval of temporary image-free treatment if imagery remains unavailable"]
+}

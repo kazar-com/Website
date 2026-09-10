@@ -1,0 +1,30 @@
+[
+  {
+    "source": "KAZAR_Website_Final_R01/spec/tokens.json",
+    "sha256": "294fc2197f9ebead5f28dcccc6add2c3bcb388d9d2f303c907a2be2a58e53889"
+  },
+  {
+    "source": "KAZAR_Website_Final_R01/spec/typography.tokens.json",
+    "sha256": "e29eb96584797e9bef447a2de7aedb035a23926f38368021bd8667a3337e92be"
+  },
+  {
+    "source": "KAZAR_Website_Final_R01/spec/components.json",
+    "sha256": "9c5425435ca44b3bbe647536b7fa5f5e492a924a5ca3043a566585f69564ba42"
+  },
+  {
+    "source": "KAZAR_Website_Final_R01/spec/evidence.schema.json",
+    "sha256": "d0110612b5bef2d78cb231859ffaaa66bdbb22e3771baac30afc37a6f65867c5"
+  },
+  {
+    "source": "KAZAR_Website_Final_R01/spec/project.schema.json",
+    "sha256": "78f63432e5167fa0a2d2a871417fb5476b126cfcfb11094410c847b832c12cfe"
+  },
+  {
+    "source": "KAZAR_Website_Final_R01/spec/placement.schema.json",
+    "sha256": "c01c6037815c1becdb280a82b1fe0fc9ccf373f01b0ebf7250948fc6f76e25b1"
+  },
+  {
+    "source": "KAZAR_Website_Final_R01/spec/Development_Specification.md",
+    "sha256": "665d6d4e64e750fb28be629e87199dc7d664851673244dc98e3b52bb7210a22b"
+  }
+]
